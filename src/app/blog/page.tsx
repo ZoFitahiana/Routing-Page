@@ -1,4 +1,4 @@
-import { BlogList } from "../../../../compenents/blog";
+import { BlogList } from "../../../compenents/blog";
 
 export default function BlogLayout({
   children,
