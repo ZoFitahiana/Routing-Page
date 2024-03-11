@@ -10,7 +10,9 @@ export default function BlogLayout({
   return (
     <div>
       <Header/>
+      <div className="blog">
       <BlogList />
+      </div>
       <Footer />
       {children}
     </div>
