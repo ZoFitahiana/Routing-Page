@@ -7,7 +7,7 @@ type itemProps = {
   showContent?: boolean;
 };
 
-export function Item({ blog, showContent, showImage }: itemProps) {
+export function ImplementData({ blog, showContent, showImage }: itemProps) {
     return (
       <Link href={`blog/${blog.id}`}>
         <div className="w-full mx-auto p-5 max-w-[800px] bg-gray-200 my-2 rounded-lg shadow-md">
